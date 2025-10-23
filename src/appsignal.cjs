@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const { Appsignal } = require('@appsignal/nodejs')
 
 new Appsignal({
