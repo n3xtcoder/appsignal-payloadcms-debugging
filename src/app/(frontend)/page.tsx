@@ -15,6 +15,8 @@ export default async function HomePage() {
 
   const fileURL = `vscode://file/${fileURLToPath(import.meta.url)}`
 
+  throw new Error('Appsignal Test error')
+
   return (
     <div className="home">
       <div className="content">
